@@ -7,3 +7,9 @@
 [submodule "postgresql-db"]
     path = postgresql-db
     url = https://github.com/just-chris/next-js/postgresql-db.git
+[submodule "dashboard-ui"]
+    path = dashboard-ui
+    url = https://github.com/just-chris/next-js/dashboard-ui.git
+[submodule "just-goldwing-portfolio"]
+    path = just-goldwing-portfolio
+    url = https://github.com/just-chris/next-js/just-goldwing-portfolio.git
