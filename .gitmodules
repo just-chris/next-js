@@ -1,0 +1,9 @@
+[submodule "anime-vault"]
+    path = anime-vault
+    url = https://github.com/just-chris/next-js/anime-vault.git
+[submodule "crud-app"]
+    path = crud-app
+    url = https://github.com/just-chris/next-js/crud-app.git
+[submodule "postgresql-db"]
+    path = postgresql-db
+    url = https://github.com/just-chris/next-js/postgresql-db.git
