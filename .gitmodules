@@ -1,15 +1,15 @@
 [submodule "anime-vault"]
     path = anime-vault
-    url = https://github.com/just-chris/next-js/anime-vault.git
+    url = https://github.com/just-chris/next-js/anime-vault
 [submodule "crud-app"]
     path = crud-app
-    url = https://github.com/just-chris/next-js/crud-app.git
+    url = https://github.com/just-chris/next-js/crud-app
 [submodule "postgresql-db"]
     path = postgresql-db
-    url = https://github.com/just-chris/next-js/postgresql-db.git
+    url = https://github.com/just-chris/next-js/postgresql-db
 [submodule "dashboard-ui"]
     path = dashboard-ui
-    url = https://github.com/just-chris/next-js/dashboard-ui.git
+    url = https://github.com/just-chris/next-js/dashboard-ui
 [submodule "just-goldwing-portfolio"]
     path = just-goldwing-portfolio
-    url = https://github.com/just-chris/next-js/just-goldwing-portfolio.git
+    url = https://github.com/just-chris/next-js/just-goldwing-portfolio
