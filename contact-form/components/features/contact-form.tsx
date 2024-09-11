@@ -38,7 +38,7 @@ export default function ContactForm() {
     })
    
     // 2. Define a submit handler.
-    const onSubmit = async (values: z.infer<typeof formSchema>) => {
+    const onSubmit = (values: z.infer<typeof formSchema>) => {
       // Do something with the form values.
       // ✅ This will be type-safe and validated.
       sendEmail(values)
