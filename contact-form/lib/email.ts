@@ -2,13 +2,10 @@ import { z } from "zod";
 import { formSchema } from "./schemas";
 import { Resend } from 'resend';
 import { EmailTemplate } from "@/components/ui/email-template";
-import { useToast } from "@/hooks/use-toast";
-
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const sendEmail = async (emailFormData: z.infer<typeof formSchema>) => {
-  const { toast } = useToast();
 
   try {
     console.log(emailFormData);
@@ -25,7 +22,6 @@ export const sendEmail = async (emailFormData: z.infer<typeof formSchema>) => {
 
     if (error) {
       console.error(error);
-
       // return res.status(400).json(error);
     }
     // res.status(200).json(data);
