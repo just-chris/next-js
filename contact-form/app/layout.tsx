@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import { cn } from '@/lib/utils'
 import './globals.css'
 import { Metadata } from 'next';
+import { Toaster } from '@/components/ui/toaster';
  
 export const metadata: Metadata = {
   title: 'NextJS | Contact Form',
@@ -37,6 +38,7 @@ export default function Layout({ children }: any) {
         )}
       >
         {children}
+        <Toaster />
       </body>
     </html>
   )

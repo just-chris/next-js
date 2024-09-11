@@ -19,8 +19,8 @@ import {
 } from "@/components/ui/form"
 import { formSchema } from "@/lib/schemas";
 import { sendEmail } from "@/lib/email";
-
-
+import { Toaster } from "@/components/ui/toaster"
+import { useToast } from "@/hooks/use-toast";
 
 
 export default function ContactForm() {
@@ -38,11 +38,12 @@ export default function ContactForm() {
     })
    
     // 2. Define a submit handler.
-    function onSubmit(values: z.infer<typeof formSchema>) {
+    const onSubmit = async (values: z.infer<typeof formSchema>) => {
       // Do something with the form values.
       // ✅ This will be type-safe and validated.
-      sendEmail(values)
+      const result = await sendEmail(values)
       console.log(values)
+      console.log(result)
     }
   
   return (
