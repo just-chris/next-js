@@ -1,0 +1,22 @@
+{
+  "name": "sql-server",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app/index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "nodemon": "^3.1.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "mssql": "^11.0.1"
+  }
+}

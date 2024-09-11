@@ -1,4 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -13,7 +15,7 @@ import {
 interface Recipe {
   id: string,
   title: string,
-  img: string,
+  image: string,
   time: string,
   description: string,
   vegan: string,
@@ -23,7 +25,7 @@ interface Recipe {
 
 const getRecipes = async (): Promise<Recipe[]> => {
   const result = await fetch('http://localhost:3000/recipes');
-  console.log(result)
+  // console.log(result)
   return result.json()
 }
 
@@ -39,25 +41,25 @@ export default async function Home() {
 
           <Card key={recipe.id} className="flex flex-col justify-between">
             <CardHeader className='flex-row gap-4 items-center'>
-              <div className="">
-              <CardTitle>{recipe.title}</CardTitle>
               {/* Avatar */}
               <Avatar>
-                <AvatarImage src={`/img/${recipe.img}`} alt="recipe image"/>
+                <AvatarImage src={`/img/${recipe.image}`} alt="recipe image"/>
                 <AvatarFallback>
                   {recipe.title.slice(0,2)}
-                  {/* {recipe.img} */}
+                  {/* {recipe.image} */}
                 </AvatarFallback>
               </Avatar>
-              </div>
+            <div>
+              <CardTitle >{recipe.title}</CardTitle>
               <CardDescription>{recipe.time} mins to cook.</CardDescription>
+            </div>
             </CardHeader>
             <CardContent>
               <p>{recipe.description}</p>
             </CardContent>
             <CardFooter className="flex justify-between">
-              <button>View Recipe {recipe.img} </button>
-              {recipe.vegan && <p>Vegan!</p>}
+              <Button variant='secondary'  >View Recipe </Button>
+              {recipe.vegan && <Badge>Vegan!</Badge>}
             </CardFooter>
           </Card>
 

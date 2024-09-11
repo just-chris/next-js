@@ -1,0 +1,141 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Vegan Lentil Soup",
+      "image": "lentil_soup.jpg",
+      "time": "30 min",
+      "description": "This is a hearty and delicious vegan lentil soup that is perfect for a cold day.",
+      "vegan": true,
+      "ingredients": [
+        "1 cup lentils",
+        "1 onion",
+        "2 carrots",
+        "2 celery stalks",
+        "4 cups vegetable broth",
+        "1 can diced tomatoes",
+        "1 tsp cumin",
+        "1 tsp paprika",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Heat oil in a large pot over medium heat.",
+        "Add onion, carrots, and celery and cook until softened.",
+        "Add lentils, vegetable broth, diced tomatoes, cumin, paprika, salt, and pepper.",
+        "Bring to a boil, then reduce heat and simmer for 20-30 minutes until lentils are tender."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Chicken Fajitas",
+      "image": "chicken_fajitas.jpg",
+      "time": "30 min",
+      "description": "These chicken fajitas are a quick and easy weeknight dinner that the whole family will love.",
+      "vegan": false,
+      "ingredients": [
+        "1 lb chicken breast",
+        "1 onion",
+        "1 bell pepper",
+        "1 tbsp olive oil",
+        "1 tsp cumin",
+        "1 tsp chili powder",
+        "1 tsp paprika",
+        "Salt and pepper to taste",
+        "Tortillas",
+        "Toppings (sour cream, salsa, guacamole, etc.)"
+      ],
+      "instructions": [
+        "Slice chicken, onion, and bell pepper into thin strips.",
+        "Heat oil in a large skillet over medium heat.",
+        "Add chicken, onion, and bell pepper and cook until chicken is cooked through and vegetables are tender.",
+        "Add cumin, chili powder, paprika, salt, and pepper and stir to combine.",
+        "Serve in tortillas with desired toppings."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Vegan Buddha Bowl",
+      "image": "buddha_bowl.jpg",
+      "time": "30 min",
+      "description": "This vegan buddha bowl is packed with healthy ingredients and is perfect for a quick and easy lunch or dinner.",
+      "vegan": true,
+      "ingredients": [
+        "1 cup quinoa",
+        "1 avocado",
+        "1 cucumber",
+        "1 carrot",
+        "1 can chickpeas",
+        "1/4 cup tahini",
+        "2 tbsp maple syrup",
+        "2 tbsp apple cider vinegar",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Cook quinoa according to package instructions.",
+        "Slice avocado, cucumber, and carrot into thin slices.",
+        "Rinse and drain chickpeas.",
+        "Whisk together tahini, maple syrup, apple cider vinegar, salt, and pepper to make the dressing.",
+        "Assemble bowl with quinoa, avocado, cucumber, carrot, and chickpeas.",
+        "Drizzle with dressing."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Beef Stroganoff",
+      "image": "beef_stroganoff.jpg",
+      "time": "30 min",
+      "description": "This beef stroganoff is a classic comfort food that is perfect for a cold day.",
+      "vegan": false,
+      "ingredients": [
+        "1 lb beef sirloin",
+        "1 onion",
+        "8 oz mushrooms",
+        "2 cloves garlic",
+        "1 cup beef broth",
+        "1 cup sour cream",
+        "2 tbsp flour",
+        "2 tbsp butter",
+        "Salt and pepper to taste",
+        "Egg noodles"
+      ],
+      "instructions": [
+        "Slice beef into thin strips.",
+        "Heat butter in a large skillet over medium heat.",
+        "Add onion, mushrooms, and garlic and cook until softened.",
+        "Add beef and cook until browned.",
+        "Add flour and stir to combine.",
+        "Add beef broth and bring to a boil.",
+        "Reduce heat and simmer for 10-15 minutes until sauce has thickened.",
+        "Stir in sour cream and season with salt and pepper.",
+        "Serve over egg noodles."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Vegan Chickpea Curry",
+      "imageg": "chickpea_curry.jpg",
+      "time": "30 min",
+      "description": "This vegan chickpea curry is a hearty and flavorful dish that is perfect for a quick and easy dinner.",
+      "vegan": true,
+      "ingredients": [
+        "1 onion",
+        "2 cloves garlic",
+        "1 tbsp ginger",
+        "1 can coconut milk",
+        "1 can chickpeas",
+        "1 can diced tomatoes"
+      ],
+      "instructions": [
+        "Slice beef into thin strips.",
+        "Heat butter in a large skillet over medium heat.",
+        "Add onion, mushrooms, and garlic and cook until softened.",
+        "Add beef and cook until browned.",
+        "Add flour and stir to combine.",
+        "Add beef broth and bring to a boil.",
+        "Reduce heat and simmer for 10-15 minutes until sauce has thickened.",
+        "Stir in sour cream and season with salt and pepper.",
+        "Serve over egg noodles."
+      ]
+    }
+  ]
+}
