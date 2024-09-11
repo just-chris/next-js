@@ -3,7 +3,7 @@ import { formSchema } from "./schemas";
 import { Resend } from 'resend';
 import { EmailTemplate } from "@/components/ui/email-template";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend(process.env.RESEND_API);
 
 export const sendEmail = async (emailFormData: z.infer<typeof formSchema>) => {
 

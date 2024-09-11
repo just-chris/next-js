@@ -4,8 +4,7 @@ import { Inter } from 'next/font/google'
 import { cn } from '@/lib/utils'
 import './globals.css'
 import { Metadata } from 'next';
-import { Toaster } from '@/components/ui/toaster';
- 
+
 export const metadata: Metadata = {
   title: 'NextJS | Contact Form',
   description: 'The official Next.js Course Dashboard, built with App Router.',
@@ -38,7 +37,6 @@ export default function Layout({ children }: any) {
         )}
       >
         {children}
-        <Toaster />
       </body>
     </html>
   )
