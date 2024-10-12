@@ -15,7 +15,7 @@ senderAPI.setApiKey(
 const smtpEmail = new brevo.SendSmtpEmail()
 
 
-type Params = {
+export type Params = {
  subject: string
  email: {email: string; name: string} []
  message: string
